@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Confluence::Api::Client do
+describe Conf::Api::Client do
   it 'has a version number' do
-    expect(Confluence::Api::Client::VERSION).not_to be nil
+    expect(Conf::Api::Client::VERSION).not_to be nil
   end
 
   it 'does something useful' do

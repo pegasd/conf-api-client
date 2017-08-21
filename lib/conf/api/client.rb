@@ -1,8 +1,8 @@
-require "confluence/api/client/version"
+require 'conf/api/client/version'
 require 'json'
 require 'faraday'
 
-module Confluence
+module Conf
   module Api
     class Client
       attr_accessor :user, :pass, :url, :conn
@@ -46,7 +46,6 @@ module Confluence
         end
         JSON.parse(response.body)
       end
-
     end
   end
 end
