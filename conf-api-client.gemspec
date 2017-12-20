@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'
 
-  spec.add_runtime_dependency 'json', '~> 2'
+  spec.add_runtime_dependency 'json', '>= 1'
   spec.add_runtime_dependency 'faraday', '~> 0.12'
   spec.add_runtime_dependency 'mimemagic', '~> 0.3'
 end
